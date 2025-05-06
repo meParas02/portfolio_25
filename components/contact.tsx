@@ -85,7 +85,7 @@ export default function Contact() {
             </p>
 
             <div className="space-y-6">
-              <Card className="transition-all duration-500 ease-in-out hover:shadow-lg hover:scale-105 hover:border-primary/50 bg-gradient-to-br from-background to-muted/20 dark:from-background dark:to-muted/5">
+              <Card className="transition-all duration-500 ease-in-out hover:shadow-lg hover:scale-100 bg-gradient-to-br from-background to-muted/20 dark:from-background dark:to-muted/5">
                 <CardContent className="p-4 flex items-center gap-4">
                   <div className="bg-primary/10 p-3 rounded-full">
                     <Mail className="h-5 w-5 text-primary" />
@@ -102,7 +102,7 @@ export default function Contact() {
                 </CardContent>
               </Card>
 
-              <Card className="transition-all duration-500 ease-in-out hover:shadow-lg hover:scale-105 hover:border-primary/50 bg-gradient-to-br from-background to-muted/20 dark:from-background dark:to-muted/5">
+              <Card className="transition-all duration-500 ease-in-out hover:shadow-lg hover:scale-100 bg-gradient-to-br from-background to-muted/20 dark:from-background dark:to-muted/5">
                 <CardContent className="p-4 flex items-center gap-4">
                   <div className="bg-primary/10 p-3 rounded-full">
                     <Phone className="h-5 w-5 text-primary" />
@@ -119,7 +119,7 @@ export default function Contact() {
                 </CardContent>
               </Card>
 
-              <Card className="transition-all duration-500 ease-in-out hover:shadow-lg hover:scale-105 hover:border-primary/50 bg-gradient-to-br from-background to-muted/20 dark:from-background dark:to-muted/5">
+              <Card className="transition-all duration-500 ease-in-out hover:shadow-lg hover:scale-100 bg-gradient-to-br from-background to-muted/20 dark:from-background dark:to-muted/5">
                 <CardContent className="p-4 flex items-center gap-4">
                   <div className="bg-primary/10 p-3 rounded-full">
                     <MapPin className="h-5 w-5 text-primary" />
@@ -145,7 +145,7 @@ export default function Contact() {
                         placeholder="Your name"
                         {...register("name")}
                         aria-invalid={errors.name ? "true" : "false"}
-                        className="transition-all duration-300 focus:border-primary/50 focus:ring-primary/50 hover:border-primary/30"
+                        className="transition-all duration-300 focus:ring-primary/50 hover:border-primary/30"
                       />
                       {errors.name && <p className="text-sm text-destructive mt-1">{errors.name.message}</p>}
                     </div>
@@ -157,7 +157,7 @@ export default function Contact() {
                         placeholder="Your email"
                         {...register("email")}
                         aria-invalid={errors.email ? "true" : "false"}
-                        className="transition-all duration-300 focus:border-primary/50 focus:ring-primary/50 hover:border-primary/30"
+                        className="transition-all duration-300 focus:ring-primary/50 hover:border-primary/30"
                       />
                       {errors.email && <p className="text-sm text-destructive mt-1">{errors.email.message}</p>}
                     </div>
@@ -170,7 +170,7 @@ export default function Contact() {
                       placeholder="Subject"
                       {...register("subject")}
                       aria-invalid={errors.subject ? "true" : "false"}
-                      className="transition-all duration-300 focus:border-primary/50 focus:ring-primary/50 hover:border-primary/30"
+                      className="transition-all duration-300 focus:ring-primary/50 hover:border-primary/30"
                     />
                     {errors.subject && <p className="text-sm text-destructive mt-1">{errors.subject.message}</p>}
                   </div>
@@ -183,7 +183,7 @@ export default function Contact() {
                       rows={5}
                       {...register("message")}
                       aria-invalid={errors.message ? "true" : "false"}
-                      className="transition-all duration-300 focus:border-primary/50 focus:ring-primary/50 hover:border-primary/30"
+                      className="transition-all duration-300 focus:ring-primary/50 hover:border-primary/30"
                     />
                     {errors.message && <p className="text-sm text-destructive mt-1">{errors.message.message}</p>}
                   </div>

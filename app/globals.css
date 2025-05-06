@@ -186,7 +186,7 @@
     transform: translateY(5px);
   }
   100% {
-    opacity: 0;
-    transform: translateY(5px);
+    opacity: 1;
+    transform: translateY(10px);
   }
 }

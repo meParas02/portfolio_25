@@ -27,12 +27,12 @@ export default function About() {
           <div className="flex justify-center animate-on-scroll">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/30 transition-all duration-700 ease-in-out hover:scale-105 hover:border-primary hover:shadow-xl hover:shadow-primary/20">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-secondary/20 z-10"></div>
-              <Image src="/ai-profile.avif?height=320&width=320" alt="Profile" fill className="object-cover" priority />
+              <Image src="/ai-profile.webp?height=320&width=320" alt="Profile" fill className="object-cover" priority />
             </div>
           </div>
           <div className="space-y-4 animate-on-scroll animation-delay-200">
             <p className="text-lg">
-              I'm a passionate Full Stack Developer with expertise in building modern web applications. With over 5
+              I'm a passionate Full Stack Developer with expertise in building modern web applications. With over 4
               years of experience, I specialize in creating responsive, user-friendly interfaces and robust backend
               systems.
             </p>
